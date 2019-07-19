@@ -46,8 +46,14 @@ and next you can use the Addin `Continuously test package` from the
 project-bar menu of [RStudio](https://www.rstudio.com/) (which is
 required to be at least v.1.2).
 
-When you click on that option, a **Job** is activated running the
+When you click on that option, an RStudio *Job* is activated running the
 `testthat::auto_test_package()` on the background. That’s it.
+
+You can now maintain visible the *Job* tab to see regularly and
+automatically all your tests *fail*\!\[1\] On top of that, you can
+switch to the *console* tab whenever you need, using R at your
+convenience: your current r-session is there, free to receive codes to
+run.
 
 The advantage of running an automated test continuously while you are
 developing code is that you do not have to decide *when* test your
@@ -63,3 +69,9 @@ thanks to
 [this](https://github.com/r-lib/testthat/pull/892#issuecomment-513226687)
 advice. I hope I will be able to reach the expectations and to be of
 some help for someone outside here.
+
+## Reference
+
+<small>
+
+1.  <http://agiledata.org/essays/tdd.html>
