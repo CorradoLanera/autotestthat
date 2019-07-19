@@ -6,9 +6,16 @@
 \alias{autotestthat-package}
 \title{autotestthat: Easily automate your test-driven development in R}
 \description{
-The goal of autotestthat is to provide some easy way to
-             use `testthat::auto_test_package()` functionality on
-             RStudio.
+The goal of autotestthat is to provide some easy
+    way to use `testthat::auto_test_package()` functionality on RStudio.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/CorradoLanera/autotestthat}
+  \item Report bugs at \url{https://github.com/CorradoLanera/autotestthat/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Corrado Lanera \email{corrado.lanera@gmail.com}
