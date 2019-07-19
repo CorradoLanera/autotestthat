@@ -15,6 +15,11 @@ knitr::opts_chunk$set(
 # autotestthat
 
 <!-- badges: start -->
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/CorradoLanera/autotestthat?branch=master&svg=true)](https://ci.appveyor.com/project/CorradoLanera/autotestthat)
+[![Travis build status](https://travis-ci.org/CorradoLanera/autotestthat.svg?branch=master)](https://travis-ci.org/CorradoLanera/autotestthat)
+[![Codecov test coverage](https://codecov.io/gh/CorradoLanera/autotestthat/branch/master/graph/badge.svg)](https://codecov.io/gh/CorradoLanera/autotestthat?branch=master)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![CRAN status](https://www.r-pkg.org/badges/version/autotestthat)](https://CRAN.R-project.org/package=autotestthat)
 <!-- badges: end -->
 
 The goal of **autotestthat** is to provide some easy way to use `testthat::auto_test_package()` functionality on [RStudio](https://www.rstudio.com/).
@@ -77,6 +82,11 @@ I started this project, which is my first "public"/general-purposed one,
 thanks to
 [this](https://github.com/r-lib/testthat/pull/892#issuecomment-513226687) advice. I hope I will be able to reach the expectations and to be of
 some help for someone outside here.
+
+## Code of Conduct
+Please note that the 'autotestthat' project is released with a
+[Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By
+contributing to this project, you agree to abide by its terms.
 
 ## Reference
 <small>
