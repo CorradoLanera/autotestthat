@@ -6,9 +6,8 @@
 \alias{autotestthat-package}
 \title{autotestthat: Easily automate your test-driven development in R}
 \description{
-The goal of autotestthat is to provide some easy way to
-             use `testthat::auto_test_package()` functionality on
-             RStudio.
+The goal of autotestthat is to provide some easy
+    way to use `testthat::auto_test_package()` functionality on RStudio.
 }
 \seealso{
 Useful links:
