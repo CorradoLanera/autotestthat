@@ -11,10 +11,12 @@ status](https://ci.appveyor.com/api/projects/status/github/CorradoLanera/autotes
 status](https://travis-ci.org/CorradoLanera/autotestthat.svg?branch=master)](https://travis-ci.org/CorradoLanera/autotestthat)
 [![Codecov test
 coverage](https://codecov.io/gh/CorradoLanera/autotestthat/branch/master/graph/badge.svg)](https://codecov.io/gh/CorradoLanera/autotestthat?branch=master)
-[![Lifecycle:
-maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/autotestthat)](https://CRAN.R-project.org/package=autotestthat)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/autotestthat.svg?color=orange)](https://cranlogs.r-pkg.org/badges/grand-total/autotestthat)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 <!-- badges: end -->
 
 The goal of **autotestthat** is to provide some easy way to use
