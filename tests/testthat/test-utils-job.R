@@ -67,11 +67,3 @@ test_that("stop_auto_test_package_job", {
         )
     }
 })
-
-test_that("rstudioapi_required", {
-    if (requireNamespace("rstudioapi")) {
-        expect_true(rstudioapi_required())
-    } else {
-        expect_error(rstudioapi_required(), "rstudioapi required")
-    }
-})
