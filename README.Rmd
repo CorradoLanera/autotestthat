@@ -23,7 +23,9 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 <!-- badges: end -->
 
-The goal of **autotestthat** is to provide some easy way to use `testthat::auto_test_package()` functionality on [RStudio](https://www.rstudio.com/).
+The goal of **autotestthat** is to provide a way to use
+`testthat::auto_test_package()` functionality on
+[RStudio](https://www.rstudio.com/), mantaining your R session free.
 
 ## Installation
 
@@ -34,15 +36,15 @@ from [CRAN](https://CRAN.R-project.org) with:
 install.packages("autotestthat")
 ```
 
-I prefer to wait for some feedback and to use it for some time before to
-publish it on [CRAN](https://CRAN.R-project.org)
+I prefer to wait for some feedback and to use it for some more time
+before to publish it on [CRAN](https://CRAN.R-project.org).
 
 In the meanwhile, you can install the development version from
 [GitHub](https://github.com/) with the following procedure:
 
 ```{r, eval = FALSE}
 # install.packages("devtools")
-devtools::install_github("CorradoLanera/<autotestthat>")
+devtools::install_github("CorradoLanera/autotestthat")
 ```
 
 ## Example
@@ -89,7 +91,8 @@ R-session or close RStudio.
 ## Disclaimer
 I started this project, which is my first "public"/general-purposed one,
 thanks to
-[this](https://github.com/r-lib/testthat/pull/892#issuecomment-513226687) advice. I hope I will be able to reach the expectations and to be of
+[this](https://github.com/r-lib/testthat/pull/892#issuecomment-513226687)
+advice. I hope I will be able to reach the expectations and to be of
 some help for someone outside here.
 
 ## Code of Conduct

@@ -19,9 +19,9 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/autotestthat.svg?color=
 experimental](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 <!-- badges: end -->
 
-The goal of **autotestthat** is to provide some easy way to use
+The goal of **autotestthat** is to provide a way to use
 `testthat::auto_test_package()` functionality on
-[RStudio](https://www.rstudio.com/).
+[RStudio](https://www.rstudio.com/), mantaining your R session free.
 
 ## Installation
 
@@ -32,15 +32,15 @@ from [CRAN](https://CRAN.R-project.org) with:
 install.packages("autotestthat")
 ```
 
-I prefer to wait for some feedback and to use it for some time before to
-publish it on [CRAN](https://CRAN.R-project.org)
+I prefer to wait for some feedback and to use it for some more time
+before to publish it on [CRAN](https://CRAN.R-project.org).
 
 In the meanwhile, you can install the development version from
 [GitHub](https://github.com/) with the following procedure:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("CorradoLanera/<autotestthat>")
+devtools::install_github("CorradoLanera/autotestthat")
 ```
 
 ## Example
