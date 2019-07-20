@@ -42,16 +42,6 @@ explain_how_to_stop_job <- function() {
   invisible(FALSE)
 }
 
-rstudioapi_required <- function() {
-  if (!requireNamespace("rstudioapi", quietly = TRUE)) {
-    stop(
-      "rstudioapi required to run auto_test_package_job(). Please install.",
-      call. = FALSE
-    )
-  }
-  invisible(TRUE)
-}
-
 code_path_from_pkg <- function(pkg) {
   code_path <- file.path(pkg$path, c("R", "src"))
   code_path <- code_path[file.exists(code_path)]
