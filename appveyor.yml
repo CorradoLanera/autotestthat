@@ -41,13 +41,13 @@ environment:
     - R_VERSION: oldrel
       CRAN: http://cran.rstudio.com
 
-    - R_VERSION: 3.4
+    - R_VERSION: 3.4.4
       CRAN: http://cran.rstudio.com
 
-    - R_VERSION: 3.3
+    - R_VERSION: 3.3.3
       CRAN: http://cran.rstudio.com
 
-    - R_VERSION: 3.2
+    - R_VERSION: 3.2.5
       CRAN: http://cran.rstudio.com
 
 build_script:
