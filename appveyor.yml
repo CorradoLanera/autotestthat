@@ -45,11 +45,11 @@ environment:
     - R_VERSION: 3.4.4
       CRAN: http://cran.rstudio.com
 
-    - R_VERSION: 3.3.3
-      CRAN: http://cran.rstudio.com
-
-    - R_VERSION: 3.2.5
-      CRAN: http://cran.rstudio.com
+#    - R_VERSION: 3.3.3
+#      CRAN: http://cran.rstudio.com
+#
+#    - R_VERSION: 3.2.5
+#      CRAN: http://cran.rstudio.com
 
 build_script:
   - travis-tool.sh install_deps

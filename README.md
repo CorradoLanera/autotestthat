@@ -83,6 +83,21 @@ by a click on the *stop* button next to the job name in the main *Jobs*
 tab. Other possible ways to stop the job is to restart your main
 R-session or close RStudio.
 
+## Technical notes
+
+On [AppVeyor](https://ci.appveyor.com) the tests for R-3.4.4/3.3.3/3.2.5
+required me to add a request to
+[RTools](https://cran.r-project.org/bin/windows/Rtools/) be installed,
+that the package
+[remotes](https://cran.r-project.org/web/packages/remotes/index.html)
+works in [standalone
+mode](https://github.com/r-lib/remotes#standalone-mode), and ask to
+Apveyor to not install the `Suggests` package neither.
+
+All of the three abovementioned requirements would not be necessary for
+all the other builds on Windows on [AppVeyor](https://ci.appveyor.com),
+nor for any build on Linux or OSX on [Travis](https://travis-ci.com/).
+
 ## Disclaimer
 
 I started this project, which is my first “public”/general-purposed one,
