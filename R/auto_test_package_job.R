@@ -9,7 +9,6 @@
 #' @keywords debugging
 #' @seealso [auto_test()] for details on how method works
 auto_test_package_job <- function(pkg = ".", ...) {
-    rstudioapi_required()
     rstudioapi::verifyAvailable("1.2")
 
     pkg_path <- normalizePath(pkg)
@@ -50,7 +49,6 @@ auto_test_package_job <- function(pkg = ".", ...) {
 #'   open-source edition of RStudio), or describe two alternative to
 #'   stop it manually.
 stop_auto_test_job <- function(job) {
-    rstudioapi_required()
     rstudioapi::verifyAvailable("1.2")
 
     if (can_stop_jobs()) {
