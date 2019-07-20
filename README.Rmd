@@ -77,6 +77,16 @@ every time you create or modify a function, a test or a helper, all the
 relevant test are automatically re-executed on an updated environment
 emulating your one.
 
+## Additional notes
+
+To stop the auto-testing job, you can use `stop_auto_test_job()`. On
+the other hands, it does not work on the open-source version of RStudio.
+If you are using the open-source version of RStudio, you can stop the
+job by a click on the _stop_ button next to the job name in the main
+_Jobs_ tab. Other possible ways to stop the job is to restart your main
+R-session or close RStudio.
+
+
 ## Disclaimer
 I started this project, which is my first "public"/general-purposed one,
 thanks to
