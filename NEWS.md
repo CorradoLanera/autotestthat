@@ -1,4 +1,4 @@
-# autotestthat (development version)
+# autotestthat 0.1.0
 
 * Added `stop_autotest_job()` to permit to stop the job by a script,
   if it is possible: some versions of RStudio are not allowed to use
