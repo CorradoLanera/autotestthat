@@ -1,3 +1,5 @@
+# autotestthat 0.1.1
+
 # autotestthat 0.1.0
 
 * Added `stop_autotest_job()` to permit to stop the job by a script,
